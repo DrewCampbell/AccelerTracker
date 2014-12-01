@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mti.accelertracker.MainActivity" >
+
+ <item
+	android:id="@+id/action_track"
+	android:orderInCategory="100"
+	android:title="@string/action_track"
+	app:showAsAction="always">
+	<menu>
+		<item
+			android:id="@+id/action_start"
+			android:orderInCategory="100"
+			android:title="@string/action_start"
+			app:showAsAction="always">
+		</item>
+		<item
+			android:id="@+id/action_stop"
+			android:orderInCategory="100"
+			android:title="@string/action_stop"
+			app:showAsAction="never"
+			android:showAsAction="never">
+		</item>
+	</menu>
+</item>
+<item
+	android:id="@+id/action_settings"
+	android:orderInCategory="100"
+	android:title="@string/action_settings"
+	app:showAsAction="always">
+    
+</item>
+</menu>
